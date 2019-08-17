@@ -8,7 +8,8 @@ block content
   video#live-player.video-js(controls preload='auto' width='640' height='264' data-setup='{"techorder" : ["flash"]}')
     source(src='rtmp://localhost/live/STREAM_NAME' type='rtmp/mp4')
     p.vjs-no-js Para ver a Live, por favor habilite o Javascript, considere atualizar sempre o seu navegador que suporte
-      a(href='http://videojs.com/html5-video-support/' target='_blank') HTML5!
+      | a(href='http://videojs.com/html5-video-support/' target='_blank') HTML5
+      | !
 
   include comments.jade
   
