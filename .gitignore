@@ -1,1 +1,10 @@
+# Modules NPM
 /node_modules
+
+# Certificates
+*.pem
+*.crt
+*.key
+
+# Variables, passwords
+.env
